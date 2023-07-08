@@ -1,0 +1,10 @@
+create table users(
+    id int primary key auto_increment,
+    name varchar(30),
+    email varchar(30),
+    salary int default null,
+    department varchar(20),
+    password varchar(100),
+    role varchar(20),
+    status boolean default false
+);
